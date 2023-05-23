@@ -66,7 +66,7 @@ export default {
       );
     },
     onRemove(id) {
-      this.informations = this.informations.filter((c) => c.id !== id);
+      return this.informations = this.informations.filter((c) => c.id !== id);
     },
     allClear(){
       this.informations = []
